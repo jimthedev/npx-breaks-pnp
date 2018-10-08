@@ -6,6 +6,6 @@ before_install:
   - export PATH="$HOME/.yarn/bin:$PATH"
   - yarn -v
   - yarn add global create-react-app@2.0.0
-  - create-react-app pnp-app --use-pnp
+  - create-react-app --use-pnp pnp-app
   - cat pnp-app/package.json
   - ls -la pnp-app
