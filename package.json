@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "test": "npx create-react-app -- pnp-app --use-pnp && cd pnp-app && ls && cat package.json"
+    }
+}
