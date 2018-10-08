@@ -1,5 +1,5 @@
 {
     "scripts": {
-        "test": "yarn -v && npx create-react-app -- pnp-app --use-pnp && cd pnp-app && ls && cat package.json"
+        "test": "grep 'installConfig' pnp-app/package.json"
     }
 }
